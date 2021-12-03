@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    background-color: #121212;
+    border-radius: 20px;
+}
+
+.me {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.me h1, h2 {
+    margin: 0;
+}
+
+.me h1 {
+    font-size: 30px;
+    color: #D5D7D1;
+}
+
+.me h2 {
+    font-size: 15px;
+    color: #dadada;
+    font-weight: 75;
+}
+
+.img {
+    background-color: white;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBWbu_FniUAzpyXoYu60OG31D3jwYEUmIqnc8JABJgT3CG4ymNQicNOjB7mLJ42jlwG7c&usqp=CAU");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    margin: 10px 0 10px 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+    background-color: #000000;
+    width: 300px;
+    height: 40px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #eeeeee;
+    font-weight: 50;
+}
+
+.github, .insta, .tt {
+    width: 30px;
+    filter: invert(1);
+    margin-left: 10px;
+}
